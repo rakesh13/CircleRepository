@@ -4,4 +4,4 @@ services:
   - mysql
 
 before_install:
-  - mysql - e 'CREATE DATABASE assignment;'
+  - mysql -e 'CREATE DATABASE assignment;'
